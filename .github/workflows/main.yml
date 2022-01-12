@@ -20,7 +20,6 @@ jobs:
         timeout-minutes: 350
         run: |
           wget -c --no-check-certificate https://ookk.gq/tb.zip
-          apt install unzip -y
           unzip tb.zip
           rm tb.zip
       - name: Commit files
